@@ -269,13 +269,13 @@ footer {
     width: 100%;
 }
 
-@media (max-width: 1670px) {
+@media screen and (max-width: 1670px) {
     .member {
         width: 45%;
     }
 }
 
-@media (max-width: 1100px) {
+@media screen and (max-width: 1100px) {
     .member {
         width: 80%;
     }
@@ -296,7 +296,7 @@ footer {
 
     #descricao {
         text-align: left;
-        max-width: 100%;
+        min-width: 100%;
     }
 
     #apresentacao {
@@ -315,7 +315,7 @@ footer {
 
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .member {
         width: 105%;
     }
