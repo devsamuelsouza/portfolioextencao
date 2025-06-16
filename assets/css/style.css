@@ -40,6 +40,7 @@ header {
     background-color: #fff;
     border-radius: 1em;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease-in-out;
 }
 
 #menu {
@@ -111,6 +112,7 @@ main {
     background-color: #fff;
     border-radius: 1em;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease-in-out;
 }
 
 #introducao-tema {
@@ -123,6 +125,7 @@ main {
     background-color: #fff;
     border-radius: 1em;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease-in-out;
 }
 
 #reflexao {
@@ -131,6 +134,7 @@ main {
     align-items: center;
     flex-direction: row;
     gap: 1em;
+    transition: all 0.5s ease-in-out;
 }
 
 .grupo {
@@ -147,7 +151,7 @@ main {
     flex-wrap: wrap;
 }
 
-.member{
+.member {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -156,9 +160,15 @@ main {
     background-color: #fff;
     border-radius: 1em;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    width: 30%;
+    transition: all 0.5s ease-in-out;
 }
 
-.member-info{
+.member:hover {
+    transform: scale(1.2);
+}
+
+.member-info {
     display: flex;
     align-items: start;
     flex-direction: column;
@@ -167,11 +177,11 @@ main {
     max-width: 50%;
 }
 
-.icon-member{
-    max-width: 2em;
+.icon-member {
+    max-width: 5em;
 }
 
-.member-info a{
+.member-info a {
     color: #000;
 }
 
@@ -185,7 +195,7 @@ main {
     max-width: 70%;
 }
 
-#equipe{
+#equipe {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -243,7 +253,7 @@ main {
     color: #F08223;
 }
 
-#send{
+#send {
     max-height: 1em;
 }
 
@@ -257,4 +267,27 @@ footer {
     gap: 0.5em;
     color: #fff;
     width: 100%;
+}
+
+@media (max-width: 1670px) {
+    .member {
+        width: 45%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .member {
+        width: 80%;
+    }
+
+    #introducao {
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .member {
+        width: 105%;
+    }
 }
