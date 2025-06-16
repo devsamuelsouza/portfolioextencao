@@ -280,6 +280,35 @@ footer {
         width: 80%;
     }
 
+    #reflexao-titulo {
+        text-align: left;
+        max-width: 100%;
+    }
+
+    .grupo {
+        max-width: 7em;
+        border-radius: 100%;
+    }
+
+    .member-name{
+        font-size: 1em;
+    }
+
+    #descricao {
+        text-align: left;
+        max-width: 50%;
+    }
+
+    #apresentacao {
+        justify-content: left;
+        align-items: left;
+    }
+
+    #reflexao-texto {
+        text-align: left;
+        max-width: 100%;
+    }
+
     #introducao {
         flex-direction: column;
     }
