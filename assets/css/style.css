@@ -74,7 +74,7 @@ main {
     flex-direction: column;
     gap: 1em;
     padding: 1em;
-    max-width: 80%;
+    max-width: 70%;
 }
 
 #descricao {
@@ -272,6 +272,10 @@ footer {
 @media screen and (max-width: 1670px) {
     .member {
         width: 45%;
+    }
+
+    main{
+        max-width: 100%;
     }
 }
 
