@@ -165,7 +165,7 @@ main {
 }
 
 .member:hover {
-    transform: scale(1.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 .member-info {
